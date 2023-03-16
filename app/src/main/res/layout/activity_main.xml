@@ -89,7 +89,7 @@
         android:text="Not yet register SignUp Now"
         android:textAlignment="center"
         android:textColor="@color/green2"
-        android:textSize="14dp"
+        android:textSize="14dp"/>
 
 
 </LinearLayout>
