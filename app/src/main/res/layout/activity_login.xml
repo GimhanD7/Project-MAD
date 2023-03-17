@@ -17,6 +17,8 @@
         android:layout_height="403dp"
         android:layout_margin="30dp"
         android:background="@drawable/login_imge"
+        android:backgroundTint="#A9FFFFFF"
+        app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
 
