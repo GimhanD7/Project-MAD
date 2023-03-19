@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/verify_password"
@@ -31,7 +30,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:orientation="vertical"
-            android:text="OTP"
+            android:text="@string/otp_text"
             android:textAlignment="center"
             android:textColor="@color/green1"
             android:textSize="36sp"
@@ -46,14 +45,14 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:orientation="vertical"
-            android:text="Your phone number or Email address get a OTP code"
+            android:text="@string/your_phone_number_or_email_address_get_a_otp_code_text"
             android:textAlignment="center"
             android:textColor="@color/green2"
             android:textSize="10sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/login_password"
+            android:id="@+id/enter_otp_btn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
@@ -62,7 +61,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/custom_edittext"
             android:drawablePadding="8dp"
-            android:hint="Enter OTP"
+            android:hint="@string/enter_otp_btn"
             android:padding="8dp"
             android:textColor="@color/black"
             android:textColorHighlight="@color/cardview_dark_background"
@@ -77,7 +76,7 @@
             android:layout_marginTop="170dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/green1"
-            android:text="Verify"
+            android:text="@string/verify_btn"
             android:textSize="18sp"
             app:cornerRadius="40dp"
             android:textColor="@color/white"/>

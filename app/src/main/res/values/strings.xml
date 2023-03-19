@@ -1,3 +1,50 @@
 <resources>
     <string name="app_name">MAD PROJECT</string>
+    <string name="loginUsername" >Username</string>
+    <string name="loginPassword" >Password</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="login_Google">Google</string>
+    <string name="login_forgot_password">Forgot Password ?</string>
+    <string name="loginSignUpNow">SignUp Now</string>
+    <string name="loginText">Login</string>
+    <string name="resetpasswordText" />
+    <string name="reset_email">Email</string>
+    <string name="reset_password">New Password</string>
+    <string name="re_reset_password">Re-New Password</string>
+    <string name="ResetPasswordButton" >Reset Password</string>
+    <string name="reset_passwordbtn">Reset Password</string>
+    <string name="resetpasswordbackbtn">Back</string>
+    <string name="registerText">Register</string>
+    <string name="register_username">Username</string>
+    <string name="register_email">Email</string>
+    <string name="register_phone_number">Phone Number</string>
+    <string name="register_password">Password</string>
+    <string name="registerbtn">Register</string>
+    <string name="already_have_account_text">Already Have Account</string>
+    <string name="register_login_now_btn">Login Now</string>
+    <string name="otp_text">OTP</string>
+    <string name="your_phone_number_or_email_address_get_a_otp_code_text">Your phone number or Email address get a OTP code</string>
+    <string name="enter_otp_btn">Enter OTP</string>
+    <string name="verify_btn">Verify</string>
+
+    <string name="my_profile_text">My Profile</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone_number">Phone Number</string>
+    <string name="profile_job">Job</string>
+    <string name="profile_description">Description</string>
+    <string name="edit_profile_btn">Edit Profile</string>
+    <string name="profile_back_btn">Back</string>
+    <string name="profile_log_out_btn">Log Out</string>
+    <string name="login_text">Login</string>
+    <string name="forgot_password_btn">Forgot Password ?</string>
+    <string name="login_login_btn">Login</string>
+    <string name="not_yet_register_text">Not yet register</string>
+    <string name="signup_now_btn">SignUp Now</string>
+    <string name="google_btn">Google</string>
+    <string name="or_text">or</string>
+    <string name="facebook_btn">Facebook</string>
+    <string name="profile_delete_account">Delete Account</string>
+
+
 </resources>

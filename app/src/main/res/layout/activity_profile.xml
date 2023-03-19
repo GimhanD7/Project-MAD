@@ -14,7 +14,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="590dp"
+        android:layout_height="646dp"
         android:layout_margin="30dp"
         android:background="@drawable/register_imge"
         android:backgroundTint="#A9FFFFFF"
@@ -22,7 +22,7 @@
         app:cardElevation="20dp">
 
         <TextView
-            android:id="@+id/loginText"
+            android:id="@+id/my_profile_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -30,7 +30,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:orientation="vertical"
-            android:text="My Profile"
+            android:text="@string/my_profile_text"
             android:textAlignment="center"
             android:textColor="#2E2159"
             android:textSize="36sp"
@@ -48,7 +48,7 @@
             android:background="@drawable/custom_edittext"
             android:drawableStart="@drawable/login_person"
             android:drawablePadding="8dp"
-            android:hint="Username"
+            android:hint="@string/profile_username"
             android:padding="8dp"
             android:textColor="@color/black"
             android:textColorHighlight="@color/cardview_dark_background"
@@ -65,7 +65,7 @@
             android:background="@drawable/custom_edittext"
             android:drawableStart="@drawable/register_email"
             android:drawablePadding="8dp"
-            android:hint="Email"
+            android:hint="@string/profile_email"
             android:inputType="textEmailAddress"
             android:padding="8dp"
             android:textColor="@color/black"
@@ -83,7 +83,7 @@
             android:background="@drawable/custom_edittext"
             android:drawableStart="@drawable/register_phone"
             android:drawablePadding="8dp"
-            android:hint="Phone Number"
+            android:hint="@string/profile_phone_number"
             android:inputType="phone"
             android:padding="8dp"
             android:textColor="@color/black"
@@ -101,7 +101,7 @@
             android:background="@drawable/custom_edittext"
             android:drawableStart="@drawable/profile_job"
             android:drawablePadding="8dp"
-            android:hint="Job"
+            android:hint="@string/profile_job"
             android:padding="8dp"
             android:textColor="@color/black"
             android:textColorHighlight="@color/cardview_dark_background"
@@ -118,7 +118,7 @@
             android:background="@drawable/custom_edittext"
             android:drawableStart="@drawable/profile_description"
             android:drawablePadding="8dp"
-            android:hint="Description"
+            android:hint="@string/profile_description"
             android:inputType="textMultiLine"
             android:padding="8dp"
             android:textColor="@color/black"
@@ -135,7 +135,20 @@
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/green1"
             android:drawableStart="@drawable/profile_edit"
-            android:text="Edit Profile"
+            android:text="@string/edit_profile_btn"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/DeleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/green1"
+            android:text="@string/profile_delete_account"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:cornerRadius="20dp" />
@@ -145,23 +158,24 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="440dp"
+            android:layout_marginTop="500dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/green1"
-            android:text="Back"
+            android:text="@string/profile_back_btn"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:cornerRadius="20dp" />
+
 
         <Button
             android:id="@+id/LogoutButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="500dp"
+            android:layout_marginTop="560dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/green1"
-            android:text="Log Out"
+            android:text="@string/profile_log_out_btn"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:cornerRadius="20dp" />
