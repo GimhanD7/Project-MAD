@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MADPROJECT"
         tools:targetApi="31">
         <activity
+            android:name=".SuccessfulActivity"
+            android:exported="false" />
+        <activity
             android:name=".verifyphoneActivity"
             android:exported="false" />
         <activity

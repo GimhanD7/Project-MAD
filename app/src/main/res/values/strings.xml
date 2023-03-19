@@ -44,6 +44,9 @@
     <string name="or_text">or</string>
     <string name="facebook_btn">Facebook</string>
     <string name="profile_delete_account">Delete Account</string>
+    <string name="conform_text">I confirm that your information is correct. And I am subject to the rules of the company.</string>
+    <string name="back_to_profile_btn">back to profile</string>
+    <string name="successful_and_saved_text">Successful and saved</string>
 
 
 </resources>

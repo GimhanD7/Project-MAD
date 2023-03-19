@@ -106,7 +106,14 @@
             android:textColor="@color/black"
             android:textColorHighlight="@color/cardview_dark_background"
             android:textColorHint="#000000" />
-
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conform_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="20dp"/>
         <Button
             android:id="@+id/registerbtn"
             android:layout_width="match_parent"
@@ -148,6 +155,8 @@
             android:textColor="#FF0000"
             android:textSize="14sp" />
     </LinearLayout>
+
+
     </androidx.cardview.widget.CardView>
 
 
