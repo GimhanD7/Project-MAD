@@ -139,7 +139,7 @@
             android:textColorHighlight="#653F3F"
             app:cornerRadius="40dp"
             android:textColor="@color/white"
-            android:backgroundTint="@color/green1"/>
+            android:backgroundTint="@color/green2"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
             app:cornerRadius="40dp"
             android:layout_margin="10dp"
             android:textColor="@color/white"
-            android:backgroundTint="@color/green1"/>
+            android:backgroundTint="@color/green2"/>
     </LinearLayout>
 
 

@@ -32,7 +32,7 @@
             android:orientation="vertical"
             android:text="Register"
             android:textAlignment="center"
-            android:textColor="@color/green1"
+            android:textColor="@color/purple_500"
             android:textSize="36sp"
             android:textStyle="bold" />
 
